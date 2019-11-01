@@ -1,0 +1,107 @@
+python rnx2hdf5.py --plot --verbose -o NetCDF BEGP *.19O
+
+
+[amuls:~/amPython/pyRinex] [pyRinex]↥ $ python
+Python 3.6.7 (default, Oct 22 2018, 11:32:17) 
+[GCC 8.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import georinex as gr
+>>> obs = gr.load('BEGP/BEGP041L.19O')
+>>> print(obs)
+<xarray.Dataset>
+Dimensions:  (sv: 6, time: 3600)
+Coordinates:
+  * sv       (sv) <U3 'E01' 'E04' 'E14' 'E19' 'E21' 'E27'
+  * time     (time) datetime64[ns] 2019-02-10T11:00:00 ... 2019-02-10T11:59:59
+Data variables:
+    C1A      (time, sv) float64 2.683e+07 2.57e+07 nan ... 2.364e+07 2.642e+07
+    L1A      (time, sv) float64 1.41e+08 1.351e+08 nan ... 1.242e+08 1.388e+08
+    D1A      (time, sv) float64 3.09e+03 2.316e+03 nan ... -472.3 -2.699e+03
+    S1A      (time, sv) float64 47.0 47.75 nan 43.25 ... 42.75 47.75 49.75 46.25
+    C6A      (time, sv) float64 2.683e+07 2.57e+07 nan ... 2.364e+07 2.642e+07
+    L6A      (time, sv) float64 1.144e+08 1.096e+08 nan ... 1.008e+08 1.127e+08
+    D6A      (time, sv) float64 2.508e+03 1.88e+03 nan ... -383.4 -2.19e+03
+    S6A      (time, sv) float64 44.25 47.0 nan 47.5 ... nan 45.75 49.5 43.25
+Attributes:
+    version:          3.02
+    rinextype:        obs
+    fast_processing:  0
+    time_system:      GAL
+    filename:         BEGP041L.19O
+    position:         [0.0, 0.0, 0.0]
+>>> from matplotlib.pyplot import figure, show
+>>> ax = figure().gca()
+>>> ax.plot(obs.time,obs['S1A'])
+[<matplotlib.lines.Line2D object at 0x7f3dbf423cc0>, <matplotlib.lines.Line2D object at 0x7f3dbedc7668>, <matplotlib.lines.Line2D object at 0x7f3dbedc7828>, <matplotlib.lines.Line2D object at 0x7f3dbedc7978>, <matplotlib.lines.Line2D object at 0x7f3dbedc7ac8>, <matplotlib.lines.Line2D object at 0x7f3dbedc7c18>]
+>>> show()
+>>> obs['S1A'].sel(sv='E14').dropna(dim='time',how='all').plot()
+>>> show()
+
+
+(python:17525): dbind-WARNING **: 14:32:04.822: Couldn't register with accessibility bus: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+>>> print(ax)
+AxesSubplot(0.125,0.11;0.775x0.77)
+>>> ax.plot(obs.time, obs['C1C'].sel(sv='E12'))
+[<matplotlib.lines.Line2D object at 0x7ffa4d9ad518>]
+>>> show()
+>>> ax.plot(obs.time, obs['C1C'].sel(sv='E12').dropna(dim='time', how='all'))
+[<matplotlib.lines.Line2D object at 0x7ffa3c1aaf60>]
+>>> show()
+>>> ax.plot(obs.time, obs['C1C'].sel(sv=['E12', 'E07'])
+... )
+[<matplotlib.lines.Line2D object at 0x7ffa3c1f1ef0>, <matplotlib.lines.Line2D object at 0x7ffa3c02e630>]
+>>> show()
+>>> ax = figure().gca()
+>>> ax.plot(obs.time, obs['C1C'].sel(sv=['E12', 'E07'])
+... )
+[<matplotlib.lines.Line2D object at 0x7ffa3c03fc88>, <matplotlib.lines.Line2D object at 0x7ffa34032710>]
+>>> show()
+>>> show(block=False)
+>>> ax = figure().gca()
+>>> ax.plot(obs.time, obs['C1C'].sel(sv=['E12', 'E07']))
+[<matplotlib.lines.Line2D object at 0x7ffa2b129b00>, <matplotlib.lines.Line2D object at 0x7ffa2b0d1cf8>]
+>>> show(block=False)
+>>> ax2 = figure().gca()
+>>> ax.plot(obs.time, obs['L1C'].sel(sv=['E12', 'E07']))
+[<matplotlib.lines.Line2D object at 0x7ffa2af55f98>, <matplotlib.lines.Line2D object at 0x7ffa2af5d4e0>]
+>>> show(block=False)
+>>> ax = figure().gca()
+>>> ax.plot(obs.time, obs['L1C'].sel(sv=['E12', 'E07']))
+[<matplotlib.lines.Line2D object at 0x7ffa2ada88d0>, <matplotlib.lines.Line2D object at 0x7ffa2add4668>]
+>>> show(block=False)
+>>> ax2 = figure().gca()
+>>> new figure()
+  File "<stdin>", line 1
+    new figure()
+             ^
+SyntaxError: invalid syntax
+>>> ax2 = figure().gca()
+>>> ax2.plot(obs.time, obs['C1C'].sel(sv=['E12', 'E07']))
+[<matplotlib.lines.Line2D object at 0x7ffa2abe3c18>, <matplotlib.lines.Line2D object at 0x7ffa2ab8ab38>]
+>>> show(block=False)
+>>> ax3 = figure().gca()
+>>> ax3.plot(obs.time, obs['C5Q'].sel(sv=['E12', 'E07', 'G26','G31']))
+[<matplotlib.lines.Line2D object at 0x7ffa2a8a6dd8>, <matplotlib.lines.Line2D object at 0x7ffa2abcd668>, <matplotlib.lines.Line2D object at 0x7ffa2abcd438>, <matplotlib.lines.Line2D object at 0x7ffa2abcd2e8>]
+>>> show(block=False)
+>>> quit()
+
+
+
+
+
+>>> pdobs = obs.to_dataframe()
+>>> print(pdobs['C1C']['G31'].diff())
+time
+2019-02-10 06:00:00        NaN
+2019-02-10 06:00:01   -217.898
+2019-02-10 06:00:02   -217.848
+2019-02-10 06:00:03   -217.739
+2019-02-10 06:00:04   -217.769
+2019-02-10 06:00:05   -217.576
+2019-02-10 06:00:06   -217.547
+2019-02-10 06:00:07   -217.390
+2019-02-10 06:00:08   -217.242
+2019-02-10 06:00:09   -217.255
+2019-02-10 06:00:10   -217.097
+
+

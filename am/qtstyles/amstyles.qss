@@ -1,0 +1,52 @@
+/*css stylesheet file that contains all the style information*/
+
+QGroupBox{
+	border: 1px solid gray;
+	border-radius: 5px;
+	border-color: darkblue;
+	border-width: 2px;
+	margin: 7px;
+	margin-top: 1ex;
+	padding: 7px;
+}
+
+QGroupBox::title {
+	subcontrol-origin: margin;
+	subcontrol-position: left top;
+	padding: 0 5px;
+	color: darkblue;
+}
+
+QPushButton:hover{
+	color: darkblue;
+}
+
+QMessageBox {
+    background-color: white;
+}
+
+QMessageBox QLabel {
+    color: darkblue;
+}
+
+QPushButton {
+    border: 2px solid #8f8f91;
+    border-radius: 24px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #dadbde);
+    min-width: 250px;
+    min-height: 90px;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+QPushButton:flat {
+    border: none; /* no border for a flat push button */
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}
