@@ -1,6 +1,7 @@
+cftime==1.0.4.2
 cycler==0.10.0
-# Editable Git install with no remote (georinex==1.9.0)
--e /home/amuls/amPython/pyRinex/georinex-1.9.0
+# Editable install with no version control (georinex==1.13.0)
+-e /home/amuls/venvmint/pyRinex/lib/python3.6/site-packages
 kiwisolver==1.1.0
 matplotlib==3.0.2
 netCDF4==1.4.2
