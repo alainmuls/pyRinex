@@ -18,6 +18,6 @@ seaborn==0.9.0
 sip==4.19.8
 six==1.12.0
 termcolor==1.1.0
-urllib3==1.24.1
+urllib3==1.24.2
 webcolors==1.10
 xarray==0.11.3

@@ -520,71 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "am/rnxdiff.py",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 7962,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "am/plot/signalDiffPlot.py",
-			"settings":
-			{
-				"buffer_size": 5119,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "am/rnxdiff219G.sh",
-			"settings":
-			{
-				"buffer_size": 326,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "am/rnxdiff2190.sh",
-			"settings":
-			{
-				"buffer_size": 340,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "am/rnxdiff2170.sh",
-			"settings":
-			{
-				"buffer_size": 342,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "am/plot/rinexObsPlot.py",
-			"settings":
-			{
-				"buffer_size": 11902,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/amuls/amPython/pyRTKLib/pyrtkplot.py",
-			"settings":
-			{
-				"buffer_size": 11197,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "am/rnxplot.py",
-			"settings":
-			{
-				"buffer_size": 32769,
+				"buffer_size": 128,
 				"line_ending": "Unix"
 			}
 		}
@@ -1151,40 +1090,103 @@
 	],
 	"file_history":
 	[
+		"/home/amuls/amPython/pyRinex/PlotRXlocation.py",
+		"/home/amuls/amPython/pyRinex/TimeRinex.py",
+		"/home/amuls/amPython/pyRinex/am/rnxplot.py",
+		"/home/amuls/amPython/pyRinex/am/workers/readNetCDF.py",
+		"/home/amuls/amPython/pyRinex/am/workers/readRinexObs.py",
+		"/home/amuls/amPython/pyRinex/am/workers/writeNetCDF.py",
+		"/home/amuls/amPython/pyRinex/georinex/PlotRinex.py",
+		"/home/amuls/amPython/pyRinex/georinex/plotrxlocation.py",
+		"/home/amuls/amPython/pyRinex/georinex/ReadRinex.py",
+		"/home/amuls/amPython/pyRinex/georinex/rnx2hdf5.py",
+		"/home/amuls/amPython/pyRinex/georinex/timerinex.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_batch_convert.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_conv.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_hatanaka.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_header.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_kepler.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_lzw.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_nav2.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_nav3.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_obs2.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_obs3.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_rinex.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_sp3.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_stringio.py",
+		"/home/amuls/amPython/pyRinex/georinex/tests/test_time.py",
+		"/home/amuls/amPython/pyRinex/tests/test_stringio.py",
+		"/home/amuls/amPython/pyRinex/tests/test_kepler.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_nav3.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_conv.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_batch_convert.py",
+		"/home/amuls/amPython/pyRTKLib/pyrtkplot.py",
+		"/home/amuls/amPython/pyRinex/am/plot/rinexObsPlot.py",
+		"/home/amuls/amPython/pyRinex/am/rnxdiff.py",
+		"/home/amuls/amPython/pyRinex/ReadRinex.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/plotrxlocation.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_lzw.py",
+		"/home/amuls/amPython/pyRinex/tests/test_obs2.py",
+		"/home/amuls/amPython/pyRinex/tests/test_batch_convert.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_stringio.py",
+		"/home/amuls/amPython/pyRinex/plotrxlocation.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_nav2.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_time.py",
+		"/home/amuls/amPython/pyRinex/timerinex.py",
+		"/home/amuls/amPython/pyRinex/tests/test_rinex.py",
+		"/home/amuls/amPython/pyRinex/tests/test_nav2.py",
+		"/home/amuls/amPython/pyRinex/tests/test_hatanaka.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/rnx2hdf5.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_kepler.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_hatanaka.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_obs2.py",
+		"/home/amuls/amPython/pyRinex/PlotRinex.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_header.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_sp3.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_obs3.py",
+		"/home/amuls/amPython/pyRinex/rnx2hdf5.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/tests/test_rinex.py",
+		"/home/amuls/amPython/pyRinex/tests/test_time.py",
+		"/home/amuls/amPython/pyRinex/tests/test_sp3.py",
+		"/home/amuls/amPython/pyRinex/tests/test_obs3.py",
+		"/home/amuls/amPython/pyRinex/tests/test_nav3.py",
+		"/home/amuls/amPython/pyRinex/tests/test_lzw.py",
+		"/home/amuls/amPython/pyRinex/tests/test_header.py",
+		"/home/amuls/amPython/pyRinex/tests/test_conv.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/timerinex.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/ReadRinex.py",
+		"/home/amuls/amPython/pyRinex/georinex-1.12.2/PlotRinex.py",
+		"/home/amuls/amPython/pyRinex/requirements.txt",
+		"/home/amuls/amPython/pyRinex/.gitignore",
+		"/home/amuls/amPython/pyRinex/am/plot/signalDiffPlot.py",
+		"/home/amuls/amPython/pyRinex/am/rnxdiff2170.sh",
+		"/home/amuls/amPython/pyRinex/am/rnxdiff219G.sh",
+		"/home/amuls/amPython/pyRinex/am/rnxdiff2190.sh",
 		"/home/amuls/amPython/pyEphem/RMA-galileo-20190807.txt",
 		"/home/amuls/amPython/pyRinex/am/rnxdiff220G.sh",
 		"/home/amuls/amPython/pyRinex/pyrinex.sublime-project",
 		"/home/amuls/Nextcloud/E6BEL/19255/rnxplot.log",
 		"/home/amuls/amPython/pyRinex/am/am_config.py",
-		"/home/amuls/amPython/pyRinex/am/rnxdiff219G.sh",
 		"/home/amuls/amPython/pyRinex/am/rnxdiff237.sh",
 		"/home/amuls/amPython/pyRinex/am/rnxdiff037.sh",
-		"/home/amuls/amPython/pyRinex/am/plot/signalDiffPlot.py",
 		"/home/amuls/amPython/pyRTKLib/pySBFDaily.py",
-		"/home/amuls/amPython/pyRinex/am/rnxplot.py",
 		"/home/amuls/amPython/pyRinex/am/rinex/rinex_observables.py",
-		"/home/amuls/amPython/pyRinex/am/workers/readRinexObs.py",
 		"/home/amuls/amPython/pyRinex/am/ampyutils/amutils.py",
 		"/home/amuls/amPython/pyRinex/am/rnxdialog/observationDisplay.py",
 		"/home/amuls/amPython/pyRinex/am/rnxdialog/rinexDialog.py",
 		"/home/amuls/tmp/rnxplot.log",
-		"/home/amuls/amPython/pyRinex/am/plot/rinexObsPlot.py",
 		"/home/amuls/amPython/pyRinex/WORKING-CMDS.txt",
 		"/home/amuls/amPython/pyRinex/georinex-1.12.2/georinex/geo.py",
 		"/home/amuls/enc/BECPAOps/BE-CPA-GSMC/BE-CPA-REQUESTS/CPA2019/PRS-anomaly-OTAR-BREXIT.md",
 		"/home/amuls/scripts/umntlinenc.sh",
 		"/home/amuls/amPython/pyQtNMEA/pyqtnmea.sublime-project",
 		"/tmp/rnxplot.txt",
-		"/home/amuls/amPython/pyRinex/PlotRinex.py",
 		"/home/amuls/amPython/pyRinex/am/qtstyles/amstyles.qss",
 		"/home/amuls/amPython/pyRinex/BEGP/gal-dataarray.txt",
 		"/home/amuls/amPython/pyRinex/am/amqtutils/stdout_redirect.py",
 		"/home/amuls/amPython/pyRinex/am/rnxdialog/stacked_widget.py",
-		"/home/amuls/amPython/pyRinex/am/workers/writeNetCDF.py",
 		"/home/amuls/.cache/.fr-Bg89OJ/sublime_text_3/changelog.txt",
 		"/home/amuls/amPython/pyRinex/am/workers/NVO-KMS vergadering",
-		"/home/amuls/amPython/pyRinex/am/workers/readNetCDF.py",
-		"/home/amuls/amPython/pyRinex/requirements.txt",
 		"/home/amuls/amPython/pyRinex/am/amqtutils/led_label.py",
 		"/home/amuls/amPython/pyRinex/am/qtstyles/amstyles.py",
 		"/home/amuls/amPython/pyRinex/am/amqtutils/waitingspinnerwidget.py",
@@ -1215,70 +1217,7 @@
 		"/home/amuls/.unison/RxTURP-BEGP.prf",
 		"/home/amuls/.unison/scripts.prf",
 		"/home/amuls/.unison/Workgroups.prf",
-		"/home/amuls/.unison/PETRUS.prf",
-		"/home/amuls/.unison/3PfD-exe.prf",
-		"/home/amuls/.unison/RxTURP-ASTX.prf",
-		"/home/amuls/.unison/HoDCISS.prf",
-		"/home/amuls/.unison/gnome-ext.prf",
-		"/home/amuls/.unison/default.prf",
-		"/home/amuls/.unison/cordoba.prf",
-		"/home/amuls/.unison/ampandoc.prf",
-		"/home/amuls/enc/TURPDATA/DATA/CURSUSSEN/OLDDOCS/as731/as731nl.kilepr",
-		"/home/amuls/Documents/CURSUSSEN/SE426/SATGEODESY/gnss-distance-measurement.markdown",
-		"/home/amuls/Documents/CURSUSSEN/SE426/SATGEODESY/principles-time-transit.markdown",
-		"/home/amuls/Documents/CURSUSSEN/SE426/SATGEODESY/navigation-introduction.markdown",
-		"/home/amuls/Documents/CURSUSSEN/SE426/SATGEODESY/radio-navigation-basics.markdown",
-		"/home/amuls/Documents/CURSUSSEN/SE426/Makefile.slides",
-		"/home/amuls/Documents/CURSUSSEN/SE426/SE426-01-SatelliteGeodesy.mdfiles",
-		"/home/amuls/Documents/CURSUSSEN/SE426/rmastyle/beamerthemeRMA.sty",
-		"/home/amuls/scripts/mntlinenc.sh",
-		"/home/amuls/scripts/fig2pstex.py",
-		"/home/amuls/Documents/CURSUSSEN/SE426/se426master.sublime-project",
-		"/home/amuls/Documents/CURSUSSEN/AS004/NAVIGATION/introductie.nl.tex",
-		"/home/amuls/Documents/CURSUSSEN/SE426/beamerthemeRMA.sty",
-		"/home/amuls/Documents/CURSUSSEN/SE426/Makefile.xfig2eps",
-		"/home/amuls/Documents/CURSUSSEN/SE426/SATGEODESY/FIGS/xfig.tex",
-		"/home/amuls/Documents/CURSUSSEN/SE426/Makefile",
-		"/home/amuls/Documents/CURSUSSEN/SE426/Fiche/se426-fiche.md",
-		"/home/amuls/Documents/CURSUSSEN/SE426/SE426slides.md",
-		"/home/amuls/Documents/CURSUSSEN/SE426/Makefile.PREV",
-		"/home/amuls/.config/pandoc/templates/ammom.latex",
-		"/home/amuls/Documents/CURSUSSEN/SE426/Makefile.NEW",
-		"/home/amuls/.config/pandoc/snippets/ammom.sublime-snippet",
-		"/home/amuls/amPython/georinex/georinex/README.md",
-		"/home/amuls/amPython/georinex/georinex/TimeRinex.py",
-		"/home/amuls/.local/share/cinnamon/applets/CustomPlaces@Nicolas01/places.json",
-		"/home/amuls/.bashrc",
-		"/home/amuls/amPython/georinex/pandoc-svg.py.py",
-		"/home/amuls/Documents/CURSUSSEN/SC021/TIDES/tidal-force.tex",
-		"/home/amuls/Documents/CURSUSSEN/SC021/TIDES/tidesmaster.tex",
-		"/home/amuls/Documents/CURSUSSEN/SC021/TIDES/tides-components.tex",
-		"/home/amuls/Documents/CURSUSSEN/SC021/TIDES/celestial-forces.tex",
-		"/home/amuls/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
-		"/usr/share/texlive/texmf-dist/tex/latex/float/float.sty",
-		"/home/amuls/Documents/CURSUSSEN/SC021/acronyms.tex",
-		"/home/amuls/Documents/CURSUSSEN/SC021/GEODMODELS/refsystems-3D.tex",
-		"/home/amuls/Documents/CURSUSSEN/SC021/SC021SLIDES/GEODMODELS/refsystems-3D.markdown",
-		"/home/amuls/Documents/CURSUSSEN/SC021/SC021SLIDES/slides-ch04.mdfiles",
-		"/home/amuls/Documents/CURSUSSEN/SC021/SC021SLIDES/test.tex",
-		"/home/amuls/Documents/CURSUSSEN/SC021/GEODMODELS/geodmodels-master.tex",
-		"/home/amuls/Documents/CURSUSSEN/SC021/GEODMODELS/nato-standards.tex",
-		"/home/amuls/Documents/CURSUSSEN/SC021/GEODMODELS/geodetic-heights.tex",
-		"/home/amuls/Documents/CURSUSSEN/SC021/SC021SLIDES/GEODMODELS/geodetic-heights.markdown",
-		"/home/amuls/Documents/CURSUSSEN/SC021/SC021SLIDES/GEODMODELS/nato-standards.markdown",
-		"/home/amuls/Documents/CURSUSSEN/SC021/sc021master.tex",
-		"/home/amuls/Documents/CURSUSSEN/SC021/SCO21SLIDES/GEODMODEL/../../SC021LIDES/GEODMODELS/refsystems-3D.markdown",
-		"/home/amuls/Documents/CURSUSSEN/SC021/GEODMODELS/earth-models.tex",
-		"/home/amuls/Documents/CURSUSSEN/SC021/ASbib.bib",
-		"/home/amuls/Documents/CURSUSSEN/SC021/GEODMODELS/FIGS/gravity-equipot.fig",
-		"/home/amuls/Documents/CURSUSSEN/SC021/sc021master.sublime-project",
-		"/home/amuls/Documents/CURSUSSEN/SC021/APPENDIX/appendixmaster.tex",
-		"/home/amuls/Documents/CURSUSSEN/AS005/REFSYSTEMS/introastrogeod.nl.tex",
-		"/home/amuls/Documents/CURSUSSEN/SC021/APPENDIX/GEOGRAPHICLIB/geographiclib-master.tex",
-		"/home/amuls/Documents/CURSUSSEN/SC021/GEODESY/measurements.tex",
-		"/home/amuls/.config/sublime-text-3/Packages/LaTeXYZ/README.md",
-		"/home/amuls/.bash_aliases",
-		"/home/amuls/scripts/xfig.sh"
+		"/home/amuls/.unison/PETRUS.prf"
 	],
 	"find":
 	{
@@ -1315,6 +1254,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"from georinex import georinex as gr",
+			"import georinex as gr",
+			"from georinex-1.12.2 import georinex as gr",
+			"from georinex import georinex as gr",
+			"import georinex as gr",
 			"d00",
 			".5",
 			".0",
@@ -1437,12 +1381,7 @@
 			"logger",
 			"print",
 			"slotRinexObsRead",
-			"signalFinished.connect",
-			"signalFinished",
-			"xarray.Dataset",
-			"signalFinished",
-			"readRinexObservation",
-			"dataframe"
+			"signalFinished.connect"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1450,6 +1389,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"import georinex as gr",
+			"from georinex import georinex as gr",
+			"import georinex as gr",
+			"from georinex-1.12.2 import georinex as gr",
+			"from georinex import georinex as gr",
 			"CSV",
 			"hbox",
 			"root = /home/amuls/enc",
@@ -1484,245 +1428,36 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "am/rnxdiff.py",
+					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7962,
+						"buffer_size": 128,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								169,
-								169
+								127,
+								127
 							]
 						],
 						"settings":
 						{
-							"SL.37.region_keys":
-							[
-							],
-							"SL.43.region_keys":
-							[
-							],
-							"SL.46.region_keys":
-							[
-							],
-							"SL.89.region_keys":
-							[
-							],
 							"WordCount":
 							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
+								"changes": 18,
+								"count": 12,
+								"modified": false,
+								"selection": false,
 								"status": -1,
-								"syntax": "python"
-							},
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": 89,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bs_sintax": "python",
-							"buffer_scroll_name": "66d936c3",
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "am/plot/signalDiffPlot.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5119,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3342,
-								3342
-							]
-						],
-						"settings":
-						{
-							"SL.112.region_keys":
-							[
-							],
-							"SL.45.region_keys":
-							[
-							],
-							"SL.72.region_keys":
-							[
-							],
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "python"
+								"syntax": "plain text"
 							},
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
@@ -1730,42 +1465,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										3655,
-										3656
-									],
-									"2":
-									[
-										3666,
-										3667
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									],
-									"2":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										3646,
-										3647
-									],
-									"2":
-									[
-										3658,
-										3659
-									]
 								},
 								"unmatched":
 								{
@@ -1773,26 +1478,36 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1803,21 +1518,6 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1827,63 +1527,23 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
 							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
-									"1":
-									[
-										3660,
-										3661
-									],
-									"2":
-									[
-										3675,
-										3676
-									],
-									"3":
-									[
-										3690,
-										3691
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									],
-									"2":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									],
-									"3":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										3651,
-										3652
-									],
-									"2":
-									[
-										3667,
-										3668
-									],
-									"3":
-									[
-										3682,
-										3683
-									]
 								},
 								"unmatched":
 								{
@@ -1891,26 +1551,36 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1921,21 +1591,6 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1945,604 +1600,20 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
 							],
-							"bs_sintax": "python",
-							"buffer_scroll_name": "5b8fae6b",
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Theme - SoDaReloaded/settings/langs/Git.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1038.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "am/rnxdiff219G.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 326,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								326,
-								326
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 28,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"bs_sintax": "bash",
-							"buffer_scroll_name": "da65b94d",
-							"spell_check": false,
-							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "am/rnxdiff2190.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 340,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								340,
-								340
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 13,
-								"count": 30,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"bs_sintax": "bash",
-							"buffer_scroll_name": "49e3c85a",
-							"spell_check": false,
-							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "am/rnxdiff2170.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 342,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								342,
-								342
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 8,
-								"count": 30,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"bs_sintax": "bash",
-							"buffer_scroll_name": "dcf29de8",
-							"spell_check": false,
-							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "am/plot/rinexObsPlot.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11902,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6641,
-								6641
-							]
-						],
-						"settings":
-						{
-							"SL.53.region_keys":
-							[
-							],
-							"SL.73.region_keys":
-							[
-							],
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "python"
-							},
-							"bs_sintax": "python",
-							"buffer_scroll_name": "ce224d5a",
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 628.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/home/amuls/amPython/pyRTKLib/pyrtkplot.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11197,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								481,
-								481
-							]
-						],
-						"settings":
-						{
-							"SL.113.region_keys":
-							[
-							],
-							"SL.46.region_keys":
-							[
-							],
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "python"
-							},
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										10549,
-										10550
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										10476,
-										10477
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										10549,
-										10550
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										10476,
-										10477
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bs_sintax": "python",
-							"buffer_scroll_name": "fb259c25",
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 343.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "am/rnxplot.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 32769,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1007,
-								1007
-							]
-						],
-						"settings":
-						{
-							"SL.41.region_keys":
-							[
-							],
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "python"
-							},
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bs_sintax": "python",
-							"buffer_scroll_name": "0c685ad4",
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
 					"type": "text"
 				}
 			]
