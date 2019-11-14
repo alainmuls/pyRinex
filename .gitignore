@@ -6,4 +6,4 @@ georinex-1.9.0
 georinex-1.9.0.tar.gz
 georinex-master
 **/*.log
-
+*.sublime-workspace
